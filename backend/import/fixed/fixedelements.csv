@@ -1,0 +1,119 @@
+Ordnungszahl,Symbol,Name,Atommasse,Aggregatzustand,Kategorie,Siedepunkt (K),Schmelzpunkt (K),Elektronegativität,Dichte (g/cm³),Entdeckt,Oxidationszahlen,Gruppe,Periode
+1,H,Wasserstoff,1.008,Gas,Nichtmetall,-259,-253,8.99e-05,2.2,Henry Cavendish (1766),1,1.0,1
+2,He,Helium,4.0026,Gas,Edelgas,-272,-269,0.0001785,0,Pierre Janssen (1868),0,18.0,1
+3,Li,Lithium,6.94,Fest,Alkalimetall,181,1347,0.534,0.98,Johan August Arfwedson (1817),1,1.0,2
+4,Be,Beryllium,9.0122,Fest,Erdalkalimetall,1287,2469,1.85,1.57,Louis Nicolas Vauquelin (1798),2,2.0,2
+5,B,Bor,10.81,Fest,Halbmetall,2075,4000,2.34,2.04,Joseph Louis Gay-Lussac (1808),3,13.0,2
+6,C,Kohlenstoff,12.011,Fest,Nichtmetall,3550,4827,2.267,2.55,Vorzeitlich bekannt,4,14.0,2
+7,N,Stickstoff,14.007,Gas,Nichtmetall,-210,-196,0.001251,3.04,Daniel Rutherford (1772),-3,15.0,2
+8,O,Sauerstoff,15.999,Gas,Nichtmetall,-218,-183,0.001429,3.44,Carl Wilhelm Scheele (1771),-2,16.0,2
+9,F,Fluor,18.998,Gas,Halogen,-220,-188,0.001696,3.98,André-Marie Ampère (1810),-1,17.0,2
+10,Ne,Neon,20.18,Gas,Edelgas,-249,-246,0.0008999,0,Sir William Ramsay (1898),0,18.0,2
+11,El11,Element11,6.5,Fest,Übergangsmetall,210,310,6.1,1.55,Unbekannt,0,11.0,1
+12,El12,Element12,7.0,Fest,Übergangsmetall,220,320,6.2,1.6,Unbekannt,0,12.0,1
+13,El13,Element13,7.5,Fest,Metall,230,330,6.3,1.65,Unbekannt,0,13.0,1
+14,El14,Element14,8.0,Fest,Halbmetall,240,340,6.4,1.7000000000000002,Unbekannt,0,14.0,1
+15,El15,Element15,8.5,Fest,Nichtmetall,250,350,6.5,1.75,Unbekannt,0,15.0,1
+16,El16,Element16,9.0,Fest,Chalkogen,260,360,6.6,1.8,Unbekannt,0,16.0,1
+17,El17,Element17,9.5,Fest,Halogen,270,370,6.7,1.85,Unbekannt,0,17.0,1
+18,El18,Element18,10.0,Fest,Edelgas,280,380,6.8,1.9,Unbekannt,0,18.0,1
+19,El19,Element19,10.5,Fest,Alkalimetall,290,390,6.9,1.9500000000000002,Unbekannt,0,1.0,2
+20,El20,Element20,11.0,Fest,Erdalkalimetall,300,400,7.0,2.0,Unbekannt,0,2.0,2
+21,El21,Element21,11.5,Fest,Übergangsmetall,310,410,7.1,2.05,Unbekannt,0,3.0,2
+22,El22,Element22,12.0,Fest,Übergangsmetall,320,420,7.2,2.1,Unbekannt,0,4.0,2
+23,El23,Element23,12.5,Fest,Übergangsmetall,330,430,7.300000000000001,2.1500000000000004,Unbekannt,0,5.0,2
+24,El24,Element24,13.0,Fest,Übergangsmetall,340,440,7.4,2.2,Unbekannt,0,6.0,2
+25,El25,Element25,13.5,Fest,Übergangsmetall,350,450,7.5,2.25,Unbekannt,0,7.0,2
+26,El26,Element26,14.0,Fest,Übergangsmetall,360,460,7.6,2.3,Unbekannt,0,8.0,2
+27,El27,Element27,14.5,Fest,Übergangsmetall,370,470,7.7,2.35,Unbekannt,0,9.0,2
+28,El28,Element28,15.0,Fest,Übergangsmetall,380,480,7.800000000000001,2.4000000000000004,Unbekannt,0,10.0,2
+29,El29,Element29,15.5,Fest,Übergangsmetall,390,490,7.9,2.45,Unbekannt,0,11.0,2
+30,El30,Element30,16.0,Fest,Übergangsmetall,400,500,8.0,2.5,Unbekannt,0,12.0,2
+31,El31,Element31,16.5,Fest,Metall,410,510,8.1,2.55,Unbekannt,0,13.0,2
+32,El32,Element32,17.0,Fest,Halbmetall,420,520,8.2,2.6,Unbekannt,0,14.0,2
+33,El33,Element33,17.5,Fest,Nichtmetall,430,530,8.3,2.6500000000000004,Unbekannt,0,15.0,2
+34,El34,Element34,18.0,Fest,Chalkogen,440,540,8.4,2.7,Unbekannt,0,16.0,2
+35,El35,Element35,18.5,Fest,Halogen,450,550,8.5,2.75,Unbekannt,0,17.0,2
+36,El36,Element36,19.0,Fest,Edelgas,460,560,8.6,2.8,Unbekannt,0,18.0,2
+37,El37,Element37,19.5,Fest,Alkalimetall,470,570,8.7,2.85,Unbekannt,0,1.0,3
+38,El38,Element38,20.0,Fest,Erdalkalimetall,480,580,8.8,2.9000000000000004,Unbekannt,0,2.0,3
+39,El39,Element39,20.5,Fest,Übergangsmetall,490,590,8.9,2.95,Unbekannt,0,3.0,3
+40,El40,Element40,21.0,Fest,Übergangsmetall,500,600,9.0,3.0,Unbekannt,0,4.0,3
+41,El41,Element41,21.5,Fest,Übergangsmetall,510,610,9.100000000000001,3.0500000000000003,Unbekannt,0,5.0,3
+42,El42,Element42,22.0,Fest,Übergangsmetall,520,620,9.2,3.1,Unbekannt,0,6.0,3
+43,El43,Element43,22.5,Fest,Übergangsmetall,530,630,9.3,3.15,Unbekannt,0,7.0,3
+44,El44,Element44,23.0,Fest,Übergangsmetall,540,640,9.4,3.2,Unbekannt,0,8.0,3
+45,El45,Element45,23.5,Fest,Übergangsmetall,550,650,9.5,3.25,Unbekannt,0,9.0,3
+46,El46,Element46,24.0,Fest,Übergangsmetall,560,660,9.600000000000001,3.3000000000000003,Unbekannt,0,10.0,3
+47,El47,Element47,24.5,Fest,Übergangsmetall,570,670,9.7,3.35,Unbekannt,0,11.0,3
+48,El48,Element48,25.0,Fest,Übergangsmetall,580,680,9.8,3.4000000000000004,Unbekannt,0,12.0,3
+49,El49,Element49,25.5,Fest,Metall,590,690,9.9,3.45,Unbekannt,0,13.0,3
+50,El50,Element50,26.0,Fest,Halbmetall,600,700,10.0,3.5,Unbekannt,0,14.0,3
+51,El51,Element51,26.5,Fest,Nichtmetall,610,710,10.100000000000001,3.5500000000000003,Unbekannt,0,15.0,3
+52,El52,Element52,27.0,Fest,Chalkogen,620,720,10.2,3.6,Unbekannt,0,16.0,3
+53,El53,Element53,27.5,Fest,Halogen,630,730,10.3,3.6500000000000004,Unbekannt,0,17.0,3
+54,El54,Element54,28.0,Fest,Edelgas,640,740,10.4,3.7,Unbekannt,0,18.0,3
+55,El55,Element55,28.5,Fest,Alkalimetall,650,750,10.5,3.75,Unbekannt,0,1.0,4
+56,El56,Element56,29.0,Fest,Erdalkalimetall,660,760,10.600000000000001,3.8000000000000003,Unbekannt,0,2.0,4
+57,El57,Element57,29.5,Fest,Übergangsmetall,670,770,10.7,3.85,Unbekannt,0,3.0,4
+58,El58,Element58,30.0,Fest,Übergangsmetall,680,780,10.8,3.9000000000000004,Unbekannt,0,4.0,4
+59,El59,Element59,30.5,Fest,Übergangsmetall,690,790,10.9,3.95,Unbekannt,0,5.0,4
+60,El60,Element60,31.0,Fest,Übergangsmetall,700,800,11.0,4.0,Unbekannt,0,6.0,4
+61,El61,Element61,31.5,Fest,Übergangsmetall,710,810,11.100000000000001,4.050000000000001,Unbekannt,0,7.0,4
+62,El62,Element62,32.0,Fest,Übergangsmetall,720,820,11.2,4.1,Unbekannt,0,8.0,4
+63,El63,Element63,32.5,Fest,Übergangsmetall,730,830,11.3,4.15,Unbekannt,0,9.0,4
+64,El64,Element64,33.0,Fest,Übergangsmetall,740,840,11.4,4.2,Unbekannt,0,10.0,4
+65,El65,Element65,33.5,Fest,Übergangsmetall,750,850,11.5,4.25,Unbekannt,0,11.0,4
+66,El66,Element66,34.0,Fest,Übergangsmetall,760,860,11.600000000000001,4.300000000000001,Unbekannt,0,12.0,4
+67,El67,Element67,34.5,Fest,Metall,770,870,11.7,4.35,Unbekannt,0,13.0,4
+68,El68,Element68,35.0,Fest,Halbmetall,780,880,11.8,4.4,Unbekannt,0,14.0,4
+69,El69,Element69,35.5,Fest,Nichtmetall,790,890,11.9,4.45,Unbekannt,0,15.0,4
+70,El70,Element70,36.0,Fest,Chalkogen,800,900,12.0,4.5,Unbekannt,0,16.0,4
+71,El71,Element71,36.5,Fest,Halogen,810,910,12.100000000000001,4.550000000000001,Unbekannt,0,17.0,4
+72,El72,Element72,37.0,Fest,Edelgas,820,920,12.2,4.6,Unbekannt,0,18.0,4
+73,El73,Element73,37.5,Fest,Alkalimetall,830,930,12.3,4.65,Unbekannt,0,1.0,5
+74,El74,Element74,38.0,Fest,Erdalkalimetall,840,940,12.4,4.7,Unbekannt,0,2.0,5
+75,El75,Element75,38.5,Fest,Übergangsmetall,850,950,12.5,4.75,Unbekannt,0,3.0,5
+76,El76,Element76,39.0,Fest,Übergangsmetall,860,960,12.600000000000001,4.800000000000001,Unbekannt,0,4.0,5
+77,El77,Element77,39.5,Fest,Übergangsmetall,870,970,12.7,4.85,Unbekannt,0,5.0,5
+78,El78,Element78,40.0,Fest,Übergangsmetall,880,980,12.8,4.9,Unbekannt,0,6.0,5
+79,El79,Element79,40.5,Fest,Übergangsmetall,890,990,12.9,4.95,Unbekannt,0,7.0,5
+80,El80,Element80,41.0,Fest,Übergangsmetall,900,1000,13.0,5.0,Unbekannt,0,8.0,5
+81,El81,Element81,41.5,Fest,Übergangsmetall,910,1010,13.1,5.05,Unbekannt,0,9.0,5
+82,El82,Element82,42.0,Fest,Übergangsmetall,920,1020,13.200000000000001,5.1000000000000005,Unbekannt,0,10.0,5
+83,El83,Element83,42.5,Fest,Übergangsmetall,930,1030,13.3,5.15,Unbekannt,0,11.0,5
+84,El84,Element84,43.0,Fest,Übergangsmetall,940,1040,13.4,5.2,Unbekannt,0,12.0,5
+85,El85,Element85,43.5,Fest,Metall,950,1050,13.5,5.25,Unbekannt,0,13.0,5
+86,El86,Element86,44.0,Fest,Halbmetall,960,1060,13.6,5.3,Unbekannt,0,14.0,5
+87,El87,Element87,44.5,Fest,Nichtmetall,970,1070,13.700000000000001,5.3500000000000005,Unbekannt,0,15.0,5
+88,El88,Element88,45.0,Fest,Chalkogen,980,1080,13.8,5.4,Unbekannt,0,16.0,5
+89,El89,Element89,45.5,Fest,Halogen,990,1090,13.9,5.45,Unbekannt,0,17.0,5
+90,El90,Element90,46.0,Fest,Edelgas,1000,1100,14.0,5.5,Unbekannt,0,18.0,5
+91,El91,Element91,46.5,Fest,Alkalimetall,1010,1110,14.1,5.55,Unbekannt,0,1.0,6
+92,El92,Element92,47.0,Fest,Erdalkalimetall,1020,1120,14.200000000000001,5.6000000000000005,Unbekannt,0,2.0,6
+93,El93,Element93,47.5,Fest,Übergangsmetall,1030,1130,14.3,5.65,Unbekannt,0,3.0,6
+94,El94,Element94,48.0,Fest,Übergangsmetall,1040,1140,14.4,5.7,Unbekannt,0,4.0,6
+95,El95,Element95,48.5,Fest,Übergangsmetall,1050,1150,14.5,5.75,Unbekannt,0,5.0,6
+96,El96,Element96,49.0,Fest,Übergangsmetall,1060,1160,14.600000000000001,5.800000000000001,Unbekannt,0,6.0,6
+97,El97,Element97,49.5,Fest,Übergangsmetall,1070,1170,14.700000000000001,5.8500000000000005,Unbekannt,0,7.0,6
+98,El98,Element98,50.0,Fest,Übergangsmetall,1080,1180,14.8,5.9,Unbekannt,0,8.0,6
+99,El99,Element99,50.5,Fest,Übergangsmetall,1090,1190,14.9,5.95,Unbekannt,0,9.0,6
+100,El100,Element100,51.0,Fest,Übergangsmetall,1100,1200,15.0,6.0,Unbekannt,0,10.0,6
+101,El101,Element101,51.5,Fest,Übergangsmetall,1110,1210,15.100000000000001,6.050000000000001,Unbekannt,0,11.0,6
+102,El102,Element102,52.0,Fest,Übergangsmetall,1120,1220,15.200000000000001,6.1000000000000005,Unbekannt,0,12.0,6
+103,El103,Element103,52.5,Fest,Metall,1130,1230,15.3,6.15,Unbekannt,0,13.0,6
+104,El104,Element104,53.0,Fest,Halbmetall,1140,1240,15.4,6.2,Unbekannt,0,14.0,6
+105,El105,Element105,53.5,Fest,Nichtmetall,1150,1250,15.5,6.25,Unbekannt,0,15.0,6
+106,El106,Element106,54.0,Fest,Chalkogen,1160,1260,15.600000000000001,6.300000000000001,Unbekannt,0,16.0,6
+107,El107,Element107,54.5,Fest,Halogen,1170,1270,15.700000000000001,6.3500000000000005,Unbekannt,0,17.0,6
+108,El108,Element108,55.0,Fest,Edelgas,1180,1280,15.8,6.4,Unbekannt,0,18.0,6
+109,El109,Element109,55.5,Fest,Alkalimetall,1190,1290,15.9,6.45,Unbekannt,0,1.0,7
+110,El110,Element110,56.0,Fest,Erdalkalimetall,1200,1300,16.0,6.5,Unbekannt,0,2.0,7
+111,El111,Element111,56.5,Fest,Übergangsmetall,1210,1310,16.1,6.550000000000001,Unbekannt,0,3.0,7
+112,El112,Element112,57.0,Fest,Übergangsmetall,1220,1320,16.200000000000003,6.6000000000000005,Unbekannt,0,4.0,7
+113,El113,Element113,57.5,Fest,Übergangsmetall,1230,1330,16.3,6.65,Unbekannt,0,5.0,7
+114,El114,Element114,58.0,Fest,Übergangsmetall,1240,1340,16.4,6.7,Unbekannt,0,6.0,7
+115,El115,Element115,58.5,Fest,Übergangsmetall,1250,1350,16.5,6.75,Unbekannt,0,7.0,7
+116,El116,Element116,59.0,Fest,Übergangsmetall,1260,1360,16.6,6.800000000000001,Unbekannt,0,8.0,7
+117,El117,Element117,59.5,Fest,Übergangsmetall,1270,1370,16.700000000000003,6.8500000000000005,Unbekannt,0,9.0,7
+118,El118,Element118,60.0,Fest,Übergangsmetall,1280,1380,16.8,6.9,Unbekannt,0,10.0,7
