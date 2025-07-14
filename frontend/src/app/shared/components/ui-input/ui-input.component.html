@@ -1,0 +1,13 @@
+<label class="ui-input__label">
+    <span *ngIf="label">{{ label }}</span>
+    <input
+            class="ui-input__field"
+            [type]="type"
+            [attr.name]="name"
+            [placeholder]="placeholder"
+            [required]="required"
+            [disabled]="disabled"
+            [(ngModel)]="model"
+            (blur)="onTouched()"
+    />
+</label>

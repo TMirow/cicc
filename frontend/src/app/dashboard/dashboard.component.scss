@@ -1,0 +1,111 @@
+.col-start-1 {grid-column-start: 1}
+.col-start-2 {grid-column-start: 2}
+.col-start-3 {grid-column-start: 3}
+.col-start-4 {grid-column-start: 4}
+.col-start-5 {grid-column-start: 5}
+.col-start-6 {grid-column-start: 6}
+.col-start-7 {grid-column-start: 7}
+.col-start-8 {grid-column-start: 8}
+.col-start-9 {grid-column-start: 9}
+.col-start-10 {grid-column-start: 10}
+.col-start-11 {grid-column-start: 11}
+.col-start-12 {grid-column-start: 12}
+.col-start-13 {grid-column-start: 13}
+.col-start-14 {grid-column-start: 14}
+.col-start-15 {grid-column-start: 15}
+.col-start-16 {grid-column-start: 16}
+.col-start-17 {grid-column-start: 17}
+.col-start-18 {grid-column-start: 18}
+
+.row-start-1 {grid-row-start: 1}
+.row-start-2 {grid-row-start: 2}
+.row-start-3 {grid-row-start: 3}
+.row-start-4 {grid-row-start: 4}
+.row-start-5 {grid-row-start: 5}
+.row-start-6 {grid-row-start: 6}
+.row-start-7 {grid-row-start: 7}
+.row-start-8 {grid-row-start: 8}
+.row-start-9 {grid-row-start: 9}
+.row-start-10 {grid-row-start: 10}
+
+.element-box {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.element-atomic-number {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 10px;
+}
+.element-symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 20px;
+}
+.element-name {
+  position: absolute;
+  bottom: 2px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+}
+
+@media (max-width: 968px) {
+  .element-name {
+    display: none;
+  }
+
+  .element-symbol {
+    align-items: flex-end;
+  }
+}
+@media (max-width: 720px) {
+  .element-atomic-number,
+  .element-name {
+    display: none;
+  }
+
+  .element-symbol {
+    align-items: center;
+  }
+}
+
+.element-color-non-metal {
+  background-color: rgb(226, 238, 255);
+  color: rgb(7, 100, 240);
+}
+.element-color-transition-metal {
+  background-color: rgb(243,231,253);
+  color: rgb(98,49,236);
+}
+.element-color-halogen {
+  background-color: rgb(254, 247, 224);
+  color: rgb(148, 87, 0);
+}
+.element-color-noble-gas {
+  background-color: rgb(255, 231, 235);
+  color: rgb(205, 29, 95);
+}
+.element-color-metal {
+  background-color: rgb(243, 232, 253);
+  color: rgb(120, 78, 239);
+}
+.element-color-alkaline-earth-metal {
+  background-color: rgb(223, 243, 255);
+  color: rgb(63, 55, 80)
+}
+.element-color-alkaline-metal {
+  background-color: rgb(231, 231, 234);
+  color: rgb(5, 99, 240)
+}
+.element-color-semi-metal {
+  background-color: rgb(214, 249, 232);
+  color: rgb(0, 44, 0)
+}

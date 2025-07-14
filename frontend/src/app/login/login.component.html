@@ -1,0 +1,32 @@
+<h2>Login</h2>
+
+<form (ngSubmit)="login()" #frm="ngForm" style="max-width: 20rem;">
+  <!-- Benutzername -->
+  <ui-input
+          label="Username"
+          name="username"
+          placeholder="Benutzername"
+          [(ngModel)]="username"
+          [required]="true"
+  ></ui-input>
+
+  <!-- Passwort -->
+  <ui-input
+          label="Password"
+          type="password"
+          name="password"
+          placeholder="Passwort"
+          [(ngModel)]="password"
+          [required]="true"
+  ></ui-input>
+
+  <!-- Button -->
+  <ui-button type="submit" [disabled]="!!frm?.invalid">
+    Login
+  </ui-button>
+
+  <!-- Fehlermeldung -->
+  <p *ngIf="error" style="color: red; margin-top: 0.5rem;">
+    {{ error }}
+  </p>
+</form>

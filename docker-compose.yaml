@@ -1,0 +1,32 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: cicc_db
+    #volumes:
+      #- ./backend/db:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    environment:
+      - DOCKER_ENV=true
+    #entrypoint: ["/entrypoint.sh"]
+    depends_on:
+      db:
+        condition: service_started
+    volumes:
+      - ./backend/import/src/:/app/import/
+    ports:
+      - "3000:3000"

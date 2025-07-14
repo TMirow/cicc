@@ -1,0 +1,119 @@
+Ordnungszahl,Symbol,Name,Atommasse,Aggregatzustand,Kategorie,Siedepunkt (K),Schmelzpunkt (K),Elektronegativität,Dichte (g/cm³),Entdeckt,Oxidationszahlen,Gruppe,Periode
+1,H,Wasserstoff,208.9858,Gas,Übergangsmetall,2234.13,310.02,2.03,21.2197,vorzeitlich bekannt,1,1.0,1
+2,He,Helium,244.5542,Gas,Halogen,5919.03,106.44,3.05,2.8121,Marie Curie (1898),2,18.0,1
+3,Li,Lithium,77.5613,Flüssig,Edelgas,3253.06,3944.43,2.32,15.5158,Glenn T. Seaborg (1944),"2, 3",1.0,2
+4,Be,Beryllium,64.8228,Fest,Metall,5835.09,1829.33,1.6,6.9244,Lawrence Berkeley Lab (1952),"3, 4, 5",2.0,2
+5,B,Bor,3.4409,Fest,Erdalkalimetall,5978.77,2666.2,3.5,14.1145,Glenn T. Seaborg (1944),1,13.0,2
+6,C,Kohlenstoff,192.6929,Flüssig,Alkalimetall,5687.6,1373.82,3.39,5.8775,vorzeitlich bekannt,"-1, 0, 1",14.0,2
+7,N,Stickstoff,106.2741,Fest,Metall,3712.54,3085.71,2.1,8.9211,vorzeitlich bekannt,-2,15.0,2
+8,O,Sauerstoff,72.587,Fest,Übergangsmetall,186.85,2060.59,1.0,13.0324,Glenn T. Seaborg (1944),-1,16.0,2
+9,F,Fluor,191.8706,Fest,Halbmetall,2450.43,3563.71,0.98,3.9307,Glenn T. Seaborg (1944),"-1, 0, 1",17.0,2
+10,Ne,Neon,171.369,Fest,Übergangsmetall,5601.07,3372.72,1.74,1.9842,vorzeitlich bekannt,"3, 4, 5",18.0,2
+11,Na,Natrium,151.0735,Flüssig,Metall,3681.29,1736.4,1.93,4.2197,Lawrence Berkeley Lab (1952),"3, 4, 5",1.0,3
+12,Mg,Magnesium,116.8665,Gas,Nichtmetall,5971.6,1157.96,2.54,10.2208,Glenn T. Seaborg (1944),4,2.0,3
+13,Al,Aluminium,49.7393,Fest,Erdalkalimetall,2105.24,3673.04,0.62,4.584,vorzeitlich bekannt,4,13.0,3
+14,Si,Silicium,220.4359,Fest,Alkalimetall,902.69,1455.21,1.81,19.5473,J. J. Berzelius (1828),-1,14.0,3
+15,P,Phosphor,264.655,Flüssig,Übergangsmetall,4936.31,1360.29,2.1,9.5335,Lawrence Berkeley Lab (1952),2,15.0,3
+16,S,Schwefel,160.0973,Fest,Erdalkalimetall,830.71,2390.12,2.83,0.2082,J. J. Berzelius (1828),3,16.0,3
+17,Cl,Chlor,134.3901,Fest,Edelgas,1649.62,1185.48,3.76,8.9796,J. J. Berzelius (1828),1,17.0,3
+18,Ar,Argon,211.4012,Fest,Halogen,1464.22,3119.15,3.34,9.511,Antike,"2, 3",18.0,3
+19,K,Kalium,88.5772,Flüssig,Erdalkalimetall,3676.67,2604.2,2.55,8.2723,Antike,"3, 4, 5",1.0,4
+20,Ca,Calcium,110.575,Fest,Halbmetall,3086.7,3877.05,2.32,12.9913,Marie Curie (1898),3,2.0,4
+21,Sc,Scandium,185.8974,Fest,Erdalkalimetall,2068.58,2550.9,3.78,18.3374,Marie Curie (1898),-1,3.0,4
+22,Ti,Titan,287.9492,Fest,Metall,708.06,3902.57,1.1,18.1277,Antike,2,4.0,4
+23,V,Vanadium,234.3192,Fest,Erdalkalimetall,5783.89,2879.94,0.64,18.2498,Glenn T. Seaborg (1944),"-1, 0, 1",5.0,4
+24,Cr,Chrom,128.7744,Flüssig,Übergangsmetall,1724.21,2795.88,3.78,19.3131,Glenn T. Seaborg (1944),-2,6.0,4
+25,Mn,Mangan,46.5083,Fest,Übergangsmetall,1574.31,2052.12,3.06,11.8722,J. J. Berzelius (1828),"2, 3",7.0,4
+26,Fe,Eisen,68.8848,Flüssig,Alkalimetall,2323.32,658.53,0.65,8.9521,Lawrence Berkeley Lab (1952),2,8.0,4
+27,Co,Cobalt,42.3482,Flüssig,Alkalimetall,653.81,3648.32,1.84,11.7456,Glenn T. Seaborg (1944),"-1, 0, 1",9.0,4
+28,Ni,Nickel,225.2868,Flüssig,Erdalkalimetall,4311.03,2248.71,3.72,2.2925,vorzeitlich bekannt,"-1, 0, 1",10.0,4
+29,Cu,Kupfer,195.9935,Flüssig,Erdalkalimetall,5521.37,70.73,1.88,0.0279,Antike,4,11.0,4
+30,Zn,Zink,22.2215,Gas,Edelgas,704.26,3049.24,2.45,17.4575,vorzeitlich bekannt,"2, 3",12.0,4
+31,Ga,Gallium,225.7554,Fest,Nichtmetall,3558.07,2575.88,3.99,6.3283,Marie Curie (1898),"2, 3",13.0,4
+32,Ge,Germanium,200.33,Fest,Übergangsmetall,598.19,300.2,3.64,0.6034,Lawrence Berkeley Lab (1952),"2, 3",14.0,4
+33,As,Arsen,51.6779,Gas,Metall,451.24,1592.84,1.2,14.9205,Lawrence Berkeley Lab (1952),-2,15.0,4
+34,Se,Selen,271.8839,Flüssig,Edelgas,2335.68,3522.39,1.97,7.7089,Antike,"3, 4, 5",16.0,4
+35,Br,Brom,238.5558,Fest,Nichtmetall,1824.85,2967.83,1.68,6.6372,vorzeitlich bekannt,"1, 2",17.0,4
+36,Kr,Krypton,271.4506,Gas,Metall,3162.25,3640.87,0.73,15.1914,Lawrence Berkeley Lab (1952),4,18.0,4
+37,Rb,Rubidium,25.5928,Fest,Edelgas,4159.07,3837.07,3.92,5.8361,Lawrence Berkeley Lab (1952),"1, 2",1.0,5
+38,Sr,Strontium,69.9773,Flüssig,Metall,4097.0,3523.56,1.1,0.0037,Antike,-2,2.0,5
+39,Y,Yttrium,276.2846,Fest,Metall,5918.48,1236.95,3.68,16.1556,Glenn T. Seaborg (1944),3,3.0,5
+40,Zr,Zirkonium,298.9887,Flüssig,Metall,2314.8,1161.13,3.85,4.8532,Antike,-1,4.0,5
+41,Nb,Niob,105.1891,Gas,Metall,215.46,2107.25,1.67,2.3032,Glenn T. Seaborg (1944),"1, 2",5.0,5
+42,Mo,Molybdän,33.6138,Flüssig,Erdalkalimetall,4179.7,2437.41,2.76,2.6031,Antike,1,6.0,5
+43,Tc,Technetium,167.4646,Flüssig,Erdalkalimetall,3649.4,1022.55,3.71,15.516,Marie Curie (1898),-1,7.0,5
+44,Ru,Ruthenium,275.7004,Gas,Metall,3889.28,1452.98,1.35,7.9199,J. J. Berzelius (1828),1,8.0,5
+45,Rh,Rhodium,191.8931,Fest,Alkalimetall,5219.53,280.56,3.65,10.5452,Glenn T. Seaborg (1944),-2,9.0,5
+46,Pd,Palladium,104.3424,Flüssig,Nichtmetall,5884.78,3884.44,3.64,6.7066,J. J. Berzelius (1828),"-1, 0, 1",10.0,5
+47,Ag,Silber,220.8008,Flüssig,Metall,3957.2,2871.27,3.13,22.3514,Marie Curie (1898),3,11.0,5
+48,Cd,Cadmium,11.6075,Fest,Alkalimetall,4133.33,359.95,4.0,19.4726,Glenn T. Seaborg (1944),"2, 3",12.0,5
+49,In,Indium,82.7579,Gas,Halogen,3058.35,2413.76,2.18,3.0322,Glenn T. Seaborg (1944),"2, 3",13.0,5
+50,Sn,Zinn,40.8635,Flüssig,Metall,1735.03,2708.1,3.68,19.1587,Glenn T. Seaborg (1944),"1, 2",14.0,5
+51,Sb,Antimon,159.2827,Gas,Edelgas,896.38,1700.96,0.72,17.1753,Marie Curie (1898),-1,15.0,5
+52,Te,Tellur,271.2614,Gas,Übergangsmetall,2297.76,108.63,2.25,22.2064,vorzeitlich bekannt,1,16.0,5
+53,I,Iod,223.7723,Gas,Nichtmetall,5108.01,2431.5,0.59,15.5567,Antike,2,17.0,5
+54,Xe,Xenon,43.9308,Flüssig,Alkalimetall,3767.69,700.9,1.62,13.6688,Marie Curie (1898),3,18.0,5
+55,Cs,Caesium,10.8037,Fest,Metall,2368.31,709.45,3.5,10.0906,Antike,-1,1.0,6
+56,Ba,Barium,277.1387,Flüssig,Übergangsmetall,463.93,35.96,2.65,17.4342,J. J. Berzelius (1828),3,2.0,6
+57,La,Lanthan,267.793,Gas,Halbmetall,3008.72,1093.93,1.76,19.3914,Glenn T. Seaborg (1944),-1,3.0,6
+58,Ce,Cer,234.742,Fest,Edelgas,4200.74,2770.33,3.53,7.482,vorzeitlich bekannt,2,,6
+59,Pr,Praseodym,182.9362,Fest,Erdalkalimetall,5886.86,426.32,2.03,2.0066,Antike,"1, 2",,6
+60,Nd,Neodym,33.896,Gas,Erdalkalimetall,3748.3,161.64,3.74,18.6845,Antike,"2, 3",,6
+61,Pm,Promethium,248.77,Fest,Übergangsmetall,4107.28,1180.04,1.14,19.9109,Antike,"3, 4, 5",,6
+62,Sm,Samarium,139.474,Flüssig,Nichtmetall,361.52,1615.23,1.5,16.2818,Lawrence Berkeley Lab (1952),-1,,6
+63,Eu,Europium,212.5513,Flüssig,Metall,4044.59,740.39,2.06,17.8788,Lawrence Berkeley Lab (1952),"1, 2",,6
+64,Gd,Gadolinium,23.5829,Gas,Übergangsmetall,442.19,3536.8,3.75,0.0964,Glenn T. Seaborg (1944),1,,6
+65,Tb,Terbium,277.8495,Fest,Nichtmetall,5336.0,1707.59,3.87,5.4836,Lawrence Berkeley Lab (1952),"-1, 0, 1",,6
+66,Dy,Dysprosium,234.6314,Gas,Alkalimetall,776.42,1378.22,3.54,4.0615,Marie Curie (1898),"2, 3",,6
+67,Ho,Holmium,109.5311,Gas,Erdalkalimetall,3575.39,1280.22,1.74,9.6945,Glenn T. Seaborg (1944),"1, 2",,6
+68,Er,Erbium,204.6341,Gas,Nichtmetall,4519.71,3068.85,1.17,21.6655,Glenn T. Seaborg (1944),"1, 2",,6
+69,Tm,Thulium,143.6623,Fest,Übergangsmetall,2660.08,870.33,0.58,12.1062,Antike,"-1, 0, 1",,6
+70,Yb,Ytterbium,282.2243,Gas,Nichtmetall,4520.17,766.22,2.18,21.8545,J. J. Berzelius (1828),-2,,6
+71,Lu,Lutetium,1.8475,Gas,Halbmetall,707.43,1776.86,2.54,13.6837,Glenn T. Seaborg (1944),2,3.0,6
+72,Hf,Hafnium,85.4068,Fest,Metall,3008.08,3936.63,3.0,17.5091,Lawrence Berkeley Lab (1952),"1, 2",4.0,6
+73,Ta,Tantal,214.0524,Flüssig,Edelgas,779.39,666.71,0.84,10.3599,J. J. Berzelius (1828),3,5.0,6
+74,W,Wolfram,177.8294,Flüssig,Erdalkalimetall,5729.36,1149.11,1.99,18.4459,Lawrence Berkeley Lab (1952),-2,6.0,6
+75,Re,Rhenium,230.2101,Flüssig,Metall,2541.75,3951.92,3.62,6.7289,vorzeitlich bekannt,2,7.0,6
+76,Os,Osmium,220.1197,Gas,Halogen,5992.09,905.53,3.96,0.2827,Antike,2,8.0,6
+77,Ir,Iridium,206.211,Flüssig,Erdalkalimetall,1395.51,441.98,1.55,12.6261,J. J. Berzelius (1828),2,9.0,6
+78,Pt,Platin,78.256,Gas,Erdalkalimetall,341.4,3526.18,1.39,6.1033,vorzeitlich bekannt,1,10.0,6
+79,Au,Gold,124.8843,Gas,Erdalkalimetall,1955.62,2360.76,3.88,15.3355,Lawrence Berkeley Lab (1952),-1,11.0,6
+80,Hg,Quecksilber,44.6087,Gas,Metall,3094.29,3677.51,3.87,2.9614,vorzeitlich bekannt,-2,12.0,6
+81,Tl,Thallium,189.2767,Fest,Übergangsmetall,4604.34,94.64,1.57,12.741,Marie Curie (1898),2,13.0,6
+82,Pb,Blei,48.6134,Fest,Alkalimetall,1261.76,925.46,3.76,7.8454,Antike,"-1, 0, 1",14.0,6
+83,Bi,Bismut,251.6621,Gas,Halbmetall,1241.06,1179.9,1.74,14.0531,vorzeitlich bekannt,-2,15.0,6
+84,Po,Polonium,55.4766,Fest,Alkalimetall,1032.29,3022.29,1.02,16.642,vorzeitlich bekannt,"3, 4, 5",16.0,6
+85,At,Astat,25.6541,Flüssig,Edelgas,1368.46,1679.9,3.83,20.7002,Antike,-1,17.0,6
+86,Rn,Radon,232.7784,Flüssig,Edelgas,1433.96,1973.54,1.5,1.7043,Marie Curie (1898),"3, 4, 5",18.0,6
+87,Fr,Francium,249.2556,Fest,Halogen,3885.48,2735.75,1.98,19.1843,Lawrence Berkeley Lab (1952),-1,1.0,7
+88,Ra,Radium,221.7467,Gas,Edelgas,1977.31,3835.41,1.96,7.9403,Glenn T. Seaborg (1944),-2,2.0,7
+89,Ac,Actinium,232.5475,Gas,Metall,4068.23,2423.63,3.89,3.6753,vorzeitlich bekannt,"2, 3",3.0,7
+90,Th,Thorium,181.3397,Fest,Nichtmetall,373.6,1496.33,3.87,2.1596,Lawrence Berkeley Lab (1952),"3, 4, 5",,7
+91,Pa,Protactinium,143.9925,Gas,Metall,4187.64,3363.49,2.45,6.4838,Glenn T. Seaborg (1944),-2,,7
+92,U,Uran,31.0804,Fest,Alkalimetall,4195.72,3887.28,3.18,7.4639,J. J. Berzelius (1828),-1,,7
+93,Np,Neptunium,243.9158,Gas,Edelgas,1223.08,663.79,2.58,4.9614,vorzeitlich bekannt,"2, 3",,7
+94,Pu,Plutonium,81.007,Gas,Metall,2478.1,175.38,2.26,18.6624,Glenn T. Seaborg (1944),"1, 2",,7
+95,Am,Americium,111.3303,Flüssig,Halogen,4319.18,802.13,2.58,11.1672,J. J. Berzelius (1828),"2, 3",,7
+96,Cm,Curium,68.0361,Gas,Übergangsmetall,2953.26,1809.24,1.8,11.6865,Marie Curie (1898),-2,,7
+97,Bk,Berkelium,23.6329,Flüssig,Erdalkalimetall,253.16,216.85,3.38,4.9935,Antike,"1, 2",,7
+98,Cf,Californium,117.2138,Gas,Alkalimetall,2739.38,3166.89,2.76,9.6335,Lawrence Berkeley Lab (1952),"-1, 0, 1",,7
+99,Es,Einsteinium,155.1203,Flüssig,Halbmetall,4718.81,583.08,3.86,13.2008,Lawrence Berkeley Lab (1952),"2, 3",,7
+100,Fm,Fermium,200.1825,Fest,Alkalimetall,5580.78,1445.81,1.04,17.598,vorzeitlich bekannt,-1,,7
+101,Md,Mendelevium,68.3567,Flüssig,Edelgas,1914.01,3957.18,3.64,12.5408,Antike,-1,,7
+102,No,Nobelium,294.3462,Fest,Übergangsmetall,2612.76,2037.73,1.93,18.8545,Marie Curie (1898),4,,7
+103,Lr,Lawrencium,232.8557,Fest,Erdalkalimetall,5346.03,521.35,2.84,9.2348,Lawrence Berkeley Lab (1952),4,3.0,7
+104,Rf,Rutherfordium,257.4649,Fest,Halogen,1955.65,875.14,2.06,11.1455,Antike,"2, 3",4.0,7
+105,Db,Dubnium,191.2435,Gas,Edelgas,2505.69,3257.85,1.77,14.6432,Antike,1,5.0,7
+106,Sg,Seaborgium,199.176,Gas,Halogen,4920.03,1585.45,3.05,12.3597,Marie Curie (1898),-1,6.0,7
+107,Bh,Bohrium,266.7791,Gas,Nichtmetall,1035.25,3908.79,1.68,16.5895,Lawrence Berkeley Lab (1952),4,7.0,7
+108,Hs,Hassium,129.5925,Flüssig,Edelgas,4493.82,1418.96,2.03,1.9021,Lawrence Berkeley Lab (1952),1,8.0,7
+109,Mt,Meitnerium,25.7875,Flüssig,Alkalimetall,4588.57,1671.62,1.18,5.3544,vorzeitlich bekannt,"1, 2",9.0,7
+110,Ds,Darmstadtium,206.5384,Gas,Alkalimetall,98.72,3002.53,1.11,1.9408,vorzeitlich bekannt,"1, 2",10.0,7
+111,Rg,Roentgenium,105.6199,Fest,Alkalimetall,1530.54,942.78,2.88,5.149,Glenn T. Seaborg (1944),"1, 2",11.0,7
+112,Cn,Copernicium,205.0263,Fest,Edelgas,3038.39,997.32,3.91,9.7233,Antike,"1, 2",12.0,7
+113,Nh,Nihonium,59.1061,Gas,Erdalkalimetall,5135.05,3692.92,0.64,8.6104,Glenn T. Seaborg (1944),"-1, 0, 1",13.0,7
+114,Fl,Flerovium,267.4569,Fest,Edelgas,3862.4,871.4,2.66,4.3195,Marie Curie (1898),2,14.0,7
+115,Mc,Moscovium,131.9527,Fest,Metall,1201.38,2924.26,3.57,3.3627,Lawrence Berkeley Lab (1952),3,15.0,7
+116,Lv,Livermorium,45.5608,Flüssig,Metall,3934.51,3873.27,1.85,9.2128,Marie Curie (1898),-2,16.0,7
+117,Ts,Tenness,260.2405,Flüssig,Halbmetall,4883.5,1406.62,2.41,1.2255,J. J. Berzelius (1828),-1,17.0,7
+118,Og,Oganesson,67.0021,Gas,Halogen,4849.68,3728.0,2.74,16.4687,Glenn T. Seaborg (1944),2,18.0,7

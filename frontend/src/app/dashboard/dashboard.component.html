@@ -1,0 +1,14 @@
+<div class="grid grid-cols-18 gap-1">
+  <div
+    *ngFor="let el of elements"
+    class=""
+    [ngClass]="['col-start-' + el.group, 'row-start-' + el.period, el.colorClass]"
+    [appOverlay]="el"
+  >
+    <div class="element-box">
+    <div class="element-atomic-number">{{ el.atomicNumber }}</div>
+    <div class="element-symbol">{{ el.symbol }}</div>
+    <div class="element-name">{{ el.name }}</div>
+    </div>
+  </div>
+</div>
