@@ -19,7 +19,6 @@ export class ElementCategorySeeder {
       if (!category) {
         category = await this.categoryRepo.save(this.categoryRepo.create({ name }));
       }
-
       map[name] = category;
     }
 

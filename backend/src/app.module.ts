@@ -18,11 +18,6 @@ import { ElementState } from './element/entities/element-state.entity';
           useFactory: (config: ConfigService) => {
 
             console.log('DOCKER_ENV:', process.env.DOCKER_ENV);
-            console.log('envFilePath resolved to:', process.env.DOCKER_ENV === 'true' ? '.env.docker' : '.env.local');
-            console.log('[Config] DB_HOST:', config.get('DB_HOST'));
-            console.log('[Config] DB_PORT:', config.get('DB_PORT'));
-            console.log('[Config] DB_USER:', config.get('DB_USER'));
-            console.log('[Config] DB_NAME:', config.get('DB_NAME'));
             return {
                 type: 'postgres',
                 host: config.get('DB_HOST'),

@@ -27,6 +27,7 @@ services:
       db:
         condition: service_started
     volumes:
-      - ./backend/import/src/:/app/import/
+      - ./backend/import/:/app/import/
+      #- ./backend/import/fixed/:/app/import/
     ports:
       - "3000:3000"

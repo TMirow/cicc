@@ -32,4 +32,17 @@ export class DashboardComponent implements OnInit{
         error: err => console.error('[Dashboard] error:', err)
       });
   }
+
+  exportJson(): void {
+    const dataJSON = JSON.stringify(this.elements, null, 2);
+    const blob = new Blob([dataJSON], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'elements.json';
+    a.click();
+
+    URL.revokeObjectURL(url);
+  }
 }

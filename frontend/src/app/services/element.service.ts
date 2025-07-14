@@ -12,7 +12,12 @@ const ELEMENT_COLORS: Record<string, string> = {
   'Erdalkalimetall': 'element-color-alkaline-earth-metal',
   'Alkalimetall': 'element-color-alkaline-metal',
   'Nichtmetall': 'element-color-non-metal',
-  'Halbmetall': 'element-color-semi-metal'
+  'Halbmetall': 'element-color-semi-metal',
+  'Metalloid': 'element-color-metalloid',
+  'Post-Übergangsmetall': 'element-color-post-transition-metal',
+  'Lanthanoid': 'element-color-lanthanoid',
+  'Actinoid': 'element-color-actinoid',
+  'Unknown': 'element-color-unknown'
 };
 
 @Injectable({ providedIn: 'root' })
@@ -48,7 +53,10 @@ function fixGroupAndPeriod(element: Element): Element {
 }
 
 function addColorClass(element: Element): Element {
-  console.log(element.atomicNumber, element.category.name);
-    element.colorClass = ELEMENT_COLORS[element.category.name];
+    if (element.atomicNumber >= 109 && element.atomicNumber <= 118) {
+      element.colorClass = ELEMENT_COLORS['Unknown'];
+    } else {
+      element.colorClass = ELEMENT_COLORS[element.category.name];
+    }
     return element;
 }

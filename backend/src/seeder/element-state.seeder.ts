@@ -19,7 +19,6 @@ export class ElementStateSeeder {
       if (!state) {
         state = await this.stateRepo.save(this.stateRepo.create({ name }));
       }
-
       map[name] = state;
     }
 
