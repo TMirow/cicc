@@ -120,10 +120,10 @@ Eine lauffähige docker-compose.yaml ist vorhanden.
 ### CI/CD
 Hier habe ich keine Erfahrungen und musste es aus Zeitmangel vernachlässigen. 
 
-## Daten-Import via Seeder 
+### Daten-Import via Seeder 
 Ist umgesetzt und im Rahmen dieses Projekts die für mich sinnvollere Lösung.
 
-## Export via JSON/CSV
+### Export via JSON/CSV
 Da die Daten bereits im Frontend vorhanden sind, war die Umsetzung einfach.
 
 
