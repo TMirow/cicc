@@ -112,7 +112,7 @@ Hier habe ich mittels ChatGPT mir eine CSV erstellen lassen, die der erwarteten 
 Nur minimal umgesetzt. Lediglich das Anpassen der Ansicht bei verschiedenen Bildschirmgrößen ist umgesetzt. Ein Umbruch des Grid-Systems macht für die gewünschte Darstellung wenig Sinn.
 
 ### Admin-Interface
-Fehlt komplett. Das hatte im bereits zeitlichen engen Rahmen keinen Platz. 
+Fehlt komplett. Das hatte im bereits zeitlichen engen Rahmen keinen Platz. Die Vorbereitung für die Umsetzung mittels JSON-Web-Token ist im Frontend mittels auth.interceptor bereits vorhanden.
 
 ### Docker-Setup
 Eine lauffähige docker-compose.yaml ist vorhanden.
