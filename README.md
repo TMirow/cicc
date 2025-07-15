@@ -4,12 +4,15 @@
 # Installation und Ausführung
 
 ## Repository klonen
+Im Terminal/Kommandozeile:
 ```
 git clone https://github.com/TMirow/cicc.git
 ```
 
 ## Umgebung starten
+Im Terminal/Kommandozeile:
 ```
+cd cicc
 docker compose up -d --build
 ```
 
