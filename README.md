@@ -42,8 +42,48 @@ Reload der Seite
 
 ### Ergebnis:
 ![Bild des Periodensystems mit überarbeiteten Elementen](images/elements_fixed.png)
+  
 
+# API
+Das Backend stellt lediglich eine Route zum Abrufen der Elemente als JSON bereit. Diese ist erreichbar unter:
+```
+http://localhost:3000/elements
+````
+  
+# Troubleshooting
+In seltenen Fällen schlägt der Start der Datenbank fehl. Hier empfiehlt es sich alle Dienste manuell zu stoppen und einzeln neu zustarten.
+Stoppen der Container:
+``` 
+docker-compose stop db backend frontend
+```
+  
+Starten der Datenbank
+``` 
+docker-compose start db
+```
+  
+Prüfen, ob die Datenbank läuft:
+```
+docker ps
 
+CONTAINER ID   IMAGE                COMMAND                  CREATED         STATUS         PORTS                    NAMES
+5f6854f4752a   postgres:16-alpine   "docker-entrypoint.s…"   9 minutes ago   Up 2 minutes   0.0.0.0:5432->5432/tcp   postgres_db
+
+docker-compose logs db
+
+postgres_db  | 2025-07-15 09:17:45.998 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres_db  | 2025-07-15 09:17:45.998 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres_db  | 2025-07-15 09:17:46.008 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres_db  | 2025-07-15 09:17:46.026 UTC [29] LOG:  database system was shut down at 2025-07-15 09:14:10 UTC
+postgres_db  | 2025-07-15 09:17:46.049 UTC [1] LOG:  database system is ready to accept connections
+```
+
+Starten von Frontend und Backend
+```
+docker-compose start frontend backend
+```
+
+ 
 
 # Anmerkungen
 
@@ -68,7 +108,7 @@ Der von NestJS mitgebrachte Starter war ein gutes Gerüst. Ich habe mir ein paar
 Auch die Verwendung von Typescript konnte ich so wieder auffrischen.
 
 ## Frontend mit Angular
-Auch hier habe ich wegen der Trainingsprojekte bereits etwas Erfahrung sammeln können.
+Auch hier habe ich wegen der Trainingsprojekte bereits etwas Erfahrung sammeln können. Die Auslieferung des Frontend's erfolgt über einen nginx-Webserver.  
 
 ## Styling mit tailwindcss
 Hier habe ich in der Vergangenheit größtenteils mit twitter-bootstrap responsive Grid-Darstellungen erstellt.
@@ -76,7 +116,7 @@ Da explizit tailwindcss genannt wurde, habe ich mir dieses angeschaut und auch T
 
 ## PostgreSQL
 Aufgrund des Frameworks bin ich mit der Datenbank, außer zu Kontrollzwecken mittels pgadmin4, nicht in Verbindung gekommen.
-Zur Entwicklungszeit war das noch in der docker-compos.yaml vorhanden.
+Zur Entwicklungszeit wurde das DB-AdminTool in der docker-compose.yaml verwendet.
 
 ```pgadmin:
     image: dpage/pgadmin4
@@ -86,7 +126,7 @@ Zur Entwicklungszeit war das noch in der docker-compos.yaml vorhanden.
       - PGADMIN_DEFAULT_EMAIL=admin@admin.com
       - PGADMIN_DEFAULT_PASSWORD=pgadmin4
     ports:
-      - '5050:80'
+      - '5050:8080'
     depends_on:
       - db
 ```
