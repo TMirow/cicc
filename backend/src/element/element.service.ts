@@ -62,6 +62,19 @@ export class ElementService {
       return this.toElementDto(element);
     }
 
+    async findByGroup(group: number): Promise<ElementDto[]> {
+      const elements = await this.elementRepo.find({
+        where: { group },
+        relations: ELEMENT_RELATIONS,
+      });
+
+      if (!elements.length) {
+        throw new NotFoundException(`No elements for group ${group} found`);
+      }
+
+      return elements.map(this.toElementDto);
+    }
+
     private toElementDto(element: Element): ElementDto {
       //const dto: any = {};
       const dto: { [key: string]: any } = {};

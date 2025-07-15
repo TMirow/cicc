@@ -13,4 +13,8 @@ export class ElementController {
     return this.elementService.findAll();
   }
 
+  @Get('group')
+  elementsForGroup(@Query('group') group: number): Promise<ElementDto[]> {
+    return this.elementService.findByGroup(group);
+  }
 }
