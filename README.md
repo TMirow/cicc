@@ -1,10 +1,14 @@
 # Installation und Ausführung
 
 ## Repository klonen
-```git clone https://github.com/TMirow/cicc.git```
+```
+git clone https://github.com/TMirow/cicc.git
+```
 
 ## Umgebung starten
-```docker compose up -d --build```
+```
+docker compose up -d --build
+```
 
 ## Frontend anzeigen
 http://localhost im Browser öffnen
@@ -14,6 +18,7 @@ http://localhost im Browser öffnen
 
 ## Hinweis
 Es war sicherlich Absicht, eine alternative Elementliste, mit z.b. Neon als Übergangsmetall, zu übergeben.
+Die Farbgebung der Elemente beruht auf den Element-Kategorien (Edelgas, Halogen, ...).
 Falls das Ergebnis den Abbildungen in den Lehrbüchern entsprechen soll, dann:
 
 ### Korrigierte Elementliste laden
@@ -36,13 +41,14 @@ in
 ```
 ändern.
 
-```docker compose up -d backend```
+```
+docker compose up -d backend
+```
 
 Reload der Seite
 
 ### Ergebnis:
 ![Bild des Periodensystems mit überarbeiteten Elementen](images/elements_fixed.png)
-  
 
 # API
 Das Backend stellt lediglich eine Route zum Abrufen der Elemente als JSON bereit. Diese ist erreichbar unter:
@@ -118,7 +124,8 @@ Da explizit tailwindcss genannt wurde, habe ich mir dieses angeschaut und auch T
 Aufgrund des Frameworks bin ich mit der Datenbank, außer zu Kontrollzwecken mittels pgadmin4, nicht in Verbindung gekommen.
 Zur Entwicklungszeit wurde das DB-AdminTool in der docker-compose.yaml verwendet.
 
-```pgadmin:
+```
+  pgadmin:
     image: dpage/pgadmin4
     restart: always
     container_name: nest-pgadmin4
