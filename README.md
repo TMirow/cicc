@@ -1,3 +1,6 @@
+# CrowdInsights Coding-Challenge: Periodensystem-Explorer (Fullstack)
+
+
 # Installation und Ausführung
 
 ## Repository klonen
@@ -114,7 +117,8 @@ Der von NestJS mitgebrachte Starter war ein gutes Gerüst. Ich habe mir ein paar
 Auch die Verwendung von Typescript konnte ich so wieder auffrischen.
 
 ## Frontend mit Angular
-Auch hier habe ich wegen der Trainingsprojekte bereits etwas Erfahrung sammeln können. Die Auslieferung des Frontend's erfolgt über einen nginx-Webserver.  
+Auch hier habe ich wegen der Trainingsprojekte bereits etwas Erfahrung sammeln können. Die Auslieferung des Frontend's erfolgt über einen nginx-Webserver. 
+Filtern und Export ist in "Navigationsleiste" oberhalb der Elemente umgesetzt. 
 
 ## Styling mit tailwindcss
 Hier habe ich in der Vergangenheit größtenteils mit twitter-bootstrap responsive Grid-Darstellungen erstellt.

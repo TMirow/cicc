@@ -28,13 +28,15 @@
 .row-start-9 {grid-row-start: 9; margin-top: 20px}
 .row-start-10 {grid-row-start: 10}
 
+.element-grid-container {
+  padding: 10px;
+}
 .element-box {
   position: relative;
   aspect-ratio: 1 / 1;
   box-sizing: border-box;
   margin: 0px;
 }
-
 .element-atomic-number {
   position: absolute;
   top: 2px;
@@ -133,14 +135,28 @@
   color: rgb(65, 57, 81)
 }
 
-.export-button-container {
-  margin-top: 20px;
+.navigation-container {
+  background-color: rgb(226, 238, 255);
+  padding: 10px;
+}
+
+
+.button-container,
+.filter-container {
   display: flex;
   justify-content: center;
 }
-.export-button {
+.button-container button{
   color: white;
   background-color: blue;
   border-radius: 5px;
   padding: 5px 10px;
 }
+.filter-container label {
+   padding: 5px 10px;
+}
+.filter-container select {
+   color: black;
+   background-color: lightgray;
+   border-radius: 5px;
+ }

@@ -1,4 +1,36 @@
-<div class="grid grid-cols-18 gap-1">
+<div class="grid grid-cols-18 gap-1 navigation-container">
+  <div class="filter-container col-start-1 row-start-1 col-span-3">
+    <label>
+      Aggregatz.:
+    </label>
+    <select [(ngModel)]="selectedStateId">
+      <option *ngFor="let state of states" [ngValue]="state.id">
+        {{ state.name }}
+      </option>
+    </select>
+  </div>
+
+  <div class="filter-container col-start-4 row-start-1 col-span-3">
+    <label>
+      Kategorie:
+    </label>
+    <select [(ngModel)]="selectedCategoryId">
+      <option *ngFor="let category of categories" [ngValue]="category.id">
+        {{ category.name }}
+      </option>
+    </select>
+  </div>
+
+  <div class="button-container col-start-8 row-start-1 col-span-2">
+    <button (click)="applyFilters()"  class="filter-button">Filter anwenden</button>
+  </div>
+
+  <div class="button-container col-start-17 row-start-1 col-span-2">
+    <button (click)="exportJson()"  class="export-button">Export als JSON</button>
+  </div>
+</div>
+
+<div class="grid grid-cols-18 gap-1 element-grid-container">
   <div
     *ngFor="let el of elements"
     class=""
@@ -11,8 +43,4 @@
     <div class="element-name">{{ el.name }}</div>
     </div>
   </div>
-
-</div>
-<div class="export-button-container">
-  <button (click)="exportJson()"  class="export-button">Export als JSON</button>
 </div>

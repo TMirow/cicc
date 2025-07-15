@@ -1,4 +1,4 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
@@ -75,12 +75,46 @@ export class ElementService {
       return elements.map(this.toElementDto);
     }
 
+    async findByState(id: number): Promise<ElementDto[]> {
+      let state = await this.stateRepo.findOneBy({ id });
+      if (!state) {
+        throw new BadRequestException(`invalid state: ${id}`);
+      }
+
+      const elements = await this.elementRepo.find({
+        where: { state: { id: id } },
+        relations: ELEMENT_RELATIONS,
+      });
+
+      if (!elements.length) {
+        throw new NotFoundException(`No elements for state ${state.name} found`);
+      }
+
+      return elements.map(this.toElementDto);
+    }
+
+    async findByCategory(id: number): Promise<ElementDto[]> {
+      let category = await this.categoryRepo.findOneBy({ id });
+      if (!category) {
+        throw new BadRequestException(`invalid category: ${id}`);
+      }
+
+      const elements = await this.elementRepo.find({
+        where: { category: { id: id } },
+        relations: ELEMENT_RELATIONS,
+      });
+
+      if (!elements.length) {
+        throw new NotFoundException(`No elements for category ${category.name} found`);
+      }
+
+      return elements.map(this.toElementDto);
+    }
+
     private toElementDto(element: Element): ElementDto {
-      //const dto: any = {};
       const dto: { [key: string]: any } = {};
 
       for (const key of ELEMENT_DTO_KEYS) {
-        //dto[key] = element[key];
         (dto as any)[key] = (element as any)[key];
       }
 
