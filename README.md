@@ -57,7 +57,7 @@ http://localhost:3000/elements
 ````
   
 # Troubleshooting
-In seltenen Fällen schlägt der Start der Datenbank fehl. Hier empfiehlt es sich alle Dienste manuell zu stoppen und einzeln neu zustarten.
+In seltenen Fällen schlägt der Start der Datenbank fehl. Hier empfiehlt es sich alle Dienste manuell zu stoppen und einzeln neu zu starten.
 Stoppen der Container:
 ``` 
 docker-compose stop db backend frontend
