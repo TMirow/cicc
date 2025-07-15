@@ -54,9 +54,15 @@ Reload der Seite
 ![Bild des Periodensystems mit überarbeiteten Elementen](images/elements_fixed.png)
 
 # API
-Das Backend stellt lediglich eine Route zum Abrufen der Elemente als JSON bereit. Diese ist erreichbar unter:
+Das Backend stellt lediglich Routen zum Abrufen der Elemente als JSON bereit. Diese sind erreichbar unter:
 ```
-http://localhost:3000/elements
+http://localhost:3000/elements            <- alle Elemente
+
+http://localhost:3000/elements/group/2    <- Elemente der Gruppe 2
+
+http://localhost:3000/elements/category/2 <- Elemente der Kategorie 2
+
+http://localhost:3000/elements/state/2    <- Elemente des Zustands 2
 ````
   
 # Troubleshooting
@@ -118,7 +124,7 @@ Auch die Verwendung von Typescript konnte ich so wieder auffrischen.
 
 ## Frontend mit Angular
 Auch hier habe ich wegen der Trainingsprojekte bereits etwas Erfahrung sammeln können. Die Auslieferung des Frontend's erfolgt über einen nginx-Webserver. 
-Filtern und Export ist in "Navigationsleiste" oberhalb der Elemente umgesetzt. 
+Filtern und Export ist in "Navigationsleiste" oberhalb der Elemente umgesetzt. Filtern geschieht im Frontend ohne Zugriff aufs Backend direkt.
 
 ## Styling mit tailwindcss
 Hier habe ich in der Vergangenheit größtenteils mit twitter-bootstrap responsive Grid-Darstellungen erstellt.
