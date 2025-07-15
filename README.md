@@ -161,7 +161,7 @@ Eine lauffähige docker-compose.yaml ist vorhanden.
 Hier habe ich keine Erfahrungen und musste es aus Zeitmangel vernachlässigen. 
 
 ### Daten-Import via Seeder 
-Ist umgesetzt und im Rahmen dieses Projekts die für mich sinnvollere Lösung.
+Ist umgesetzt und im Rahmen dieses Projekts die für mich sinnvolle Lösung. Aufgrund der einfachen Bedienung und der Möglichkeit, die bereinigte Elementliste einzulesen, läuft der Seeder unüblicherweise bei jedem Start des Backends.    
 
 ### Export via JSON/CSV
 Da die Daten bereits im Frontend vorhanden sind, war die Umsetzung einfach.
